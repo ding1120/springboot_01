@@ -1,0 +1,10 @@
+spring:
+    jdbc:
+        # type代表数据源
+        datasource:
+            driverClassName: com.mysql.jdbc.Driver
+            url: jdbc:mysql:///business
+            username: business
+            password: business
+        type: druid
+

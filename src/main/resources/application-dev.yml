@@ -1,0 +1,8 @@
+#用于开发，产品与测试，分别建立一个yml
+spring:
+  jdbc:
+    datasource:
+      driverClassName: com.mysql.jdbc.Driver
+      url: jdbc:mysql:///springboot
+      username: root
+      password: root
